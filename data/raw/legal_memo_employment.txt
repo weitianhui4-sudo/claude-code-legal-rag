@@ -1,0 +1,129 @@
+PRIVILEGED AND CONFIDENTIAL
+ATTORNEY-CLIENT COMMUNICATION
+
+MEMORANDUM
+
+TO:     Sarah Johnson, Chief Human Resources Officer
+FROM:   Michael Chen, Senior Counsel, Employment Law
+DATE:   March 22, 2024
+RE:     Analysis of Non-Compete Agreement Enforceability Following Recent Regulatory Changes
+
+I. EXECUTIVE SUMMARY
+
+This memorandum analyzes the enforceability of the Company's existing non-compete agreements in light of the Federal Trade Commission's ("FTC") final rule banning most non-compete clauses (the "Non-Compete Rule"), published on April 23, 2024, as well as recent state legislative developments. We recommend immediate review of all current non-compete agreements and development of alternative restrictive covenant strategies.
+
+II. BACKGROUND
+
+The Company currently has non-compete agreements with approximately 847 employees across all levels, including senior executives, technical staff, and sales personnel. These agreements vary in scope, duration (ranging from 6 months to 3 years), and geographic restriction (state-specific to nationwide).
+
+III. FEDERAL TRADE COMMISSION NON-COMPETE RULE
+
+A. Overview of the Rule
+
+On April 23, 2024, the FTC published a final rule that broadly prohibits employers from entering into, enforcing, or attempting to enforce non-compete clauses with workers. The Non-Compete Rule:
+
+1. Retroactively voids existing non-compete agreements for all workers except "senior executives" (defined as workers earning more than $151,164 annually who are in a policy-making position);
+
+2. Prohibits entering into new non-compete agreements with any workers after the effective date (September 4, 2024);
+
+3. Requires employers to provide clear and conspicuous notice to workers with existing non-competes (other than senior executives) that their non-competes are no longer enforceable.
+
+B. Legal Challenges
+
+The Non-Compete Rule faces significant legal challenges. In Ryan LLC v. Federal Trade Commission, No. 3:24-cv-00986 (N.D. Tex. 2024), a federal district court has issued a preliminary injunction blocking the rule's implementation pending further proceedings. Similar challenges have been filed in the Third and Eleventh Circuits.
+
+We expect this litigation to take 18-24 months to resolve definitively. Companies should prepare for both scenarios: (1) the rule is upheld and takes effect, and (2) the rule is struck down and existing non-competes remain enforceable.
+
+IV. STATE LAW DEVELOPMENTS
+
+A. California
+
+California Business and Professions Code § 16600 has long prohibited non-compete agreements (with narrow exceptions). Recent amendments effective January 1, 2024 further strengthen this prohibition by:
+- Rendering void any non-compete clause regardless of where the agreement was signed;
+- Requiring California employers to notify employees in writing by February 14, 2024 that existing non-competes are void;
+- Creating a private right of action for employees and job applicants who are harmed by non-compete enforcement efforts.
+
+The Company's 23 California employees have existing non-compete agreements that are void under this law. Notices should have been sent by February 14, 2024. We recommend sending cure notices immediately and consulting with California counsel regarding any liability exposure.
+
+B. Minnesota
+
+Effective January 1, 2023, Minnesota Statutes § 181.988 prohibits post-employment non-compete agreements. Agreements entered before this date remain governed by prior law, which permitted reasonable non-competes. The Company has 15 employees in Minnesota with pre-2023 non-competes.
+
+C. Other Jurisdictions
+
+States with significant recent legislative activity restricting non-competes include:
+- Illinois: Banned non-competes for employees earning less than $75,000/year
+- Washington: Banned non-competes for employees earning less than $100,000/year; requires compensation equal to base salary during enforcement period
+- Colorado: Banned for employees earning less than $123,750/year
+
+V. ANALYSIS OF CURRENT AGREEMENTS
+
+A. Enforceability Assessment
+
+We categorized the Company's 847 non-compete agreements as follows:
+
+Category 1 - Clearly Unenforceable (Recommend Immediate Voidance)
+- California employees: 23 agreements (void under state law)
+- Minnesota post-2023 hires: 8 agreements (void under state law)
+- All employees if FTC Rule upheld (except senior executives): approximately 780 agreements
+
+Category 2 - Senior Executive Agreements (Likely Preserved)
+- Approximately 67 agreements with employees meeting the senior executive definition under the FTC Rule
+- These remain subject to state law analysis
+
+Category 3 - Requires Individual Review
+- Agreements in states where enforceability depends on specific terms, scope, and duration
+
+B. Risk Factors for Unenforceable Provisions
+
+Courts typically evaluate non-compete enforceability based on:
+1. Duration: Courts rarely enforce agreements exceeding 2 years; 6-12 months is generally more defensible
+2. Geographic Scope: Must bear reasonable relationship to territory where employee actually worked
+3. Legitimate Business Interest: Must protect trade secrets, confidential information, or customer relationships
+4. Consideration: Agreement must be supported by adequate consideration
+
+VI. ALTERNATIVE RESTRICTIVE COVENANTS
+
+Given the regulatory environment, we recommend transitioning from non-competes to the following alternative protections:
+
+A. Confidentiality and Trade Secret Agreements
+Non-disclosure agreements protecting genuine trade secrets and confidential information are broadly enforceable and not affected by the FTC Rule. We recommend strengthening these provisions and ensuring proper categorization of protected information.
+
+B. Non-Solicitation of Customers
+Agreements prohibiting solicitation of specific customers with whom the employee had contact remain enforceable in most states. Duration should generally not exceed 2 years.
+
+C. Non-Solicitation of Employees
+Agreements prohibiting recruitment of former colleagues remain generally enforceable, though some states (e.g., California, Minnesota) have restrictions. Duration should not exceed 2 years.
+
+D. Garden Leave Provisions
+For senior executives, "garden leave" provisions (requiring employees to provide notice and sit out during a paid notice period) offer meaningful protection while avoiding enforceability challenges.
+
+VII. RECOMMENDATIONS
+
+1. Immediate Actions (Within 30 Days):
+   - Send void notices to all California employees regarding existing non-competes
+   - Audit all non-compete agreements and categorize by jurisdiction and risk
+   - Cease entering into new non-compete agreements pending legal developments
+
+2. Near-Term Actions (60-90 Days):
+   - Develop updated template agreements focused on NDAs and non-solicitation
+   - Implement trade secret protection program
+   - Brief executive team on legal landscape
+
+3. Ongoing Monitoring:
+   - Track FTC Rule litigation developments
+   - Monitor state legislative changes
+   - Conduct annual review of all restrictive covenant agreements
+
+VIII. CONCLUSION
+
+The regulatory environment governing non-compete agreements has shifted dramatically. The Company faces both immediate compliance obligations (California) and significant uncertainty regarding future enforceability of existing agreements. Proactive transition to alternative protective mechanisms is strongly recommended.
+
+Please do not hesitate to contact me to discuss these issues further.
+
+Michael Chen
+Senior Counsel, Employment Law
+Direct: (312) 555-0192
+michael.chen@company.com
+
+CONFIDENTIAL: This memorandum contains attorney-client privileged information. Do not distribute.

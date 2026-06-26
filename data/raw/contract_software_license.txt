@@ -1,0 +1,103 @@
+SOFTWARE LICENSE AGREEMENT
+
+This Software License Agreement ("Agreement") is entered into as of January 15, 2024 ("Effective Date") by and between:
+
+LICENSOR: TechCorp Solutions, Inc., a Delaware corporation with its principal place of business at 123 Innovation Drive, San Francisco, CA 94102 ("Licensor")
+
+LICENSEE: Global Enterprises LLC, a New York limited liability company with its principal place of business at 456 Business Avenue, New York, NY 10001 ("Licensee")
+
+RECITALS
+
+WHEREAS, Licensor has developed certain proprietary software and related documentation; and
+
+WHEREAS, Licensee desires to obtain a license to use such software subject to the terms and conditions set forth herein;
+
+NOW, THEREFORE, in consideration of the mutual covenants and agreements set forth herein, and for other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the parties agree as follows:
+
+ARTICLE 1 - DEFINITIONS
+
+1.1 "Software" means the computer programs identified in Exhibit A attached hereto, including all updates, upgrades, enhancements, modifications, and new versions thereof provided by Licensor to Licensee during the Term.
+
+1.2 "Documentation" means the user manuals, technical manuals, and any other materials provided by Licensor, in printed or electronic form, that describe the installation, operation, use, or technical specifications of the Software.
+
+1.3 "Intellectual Property Rights" means all patents, copyrights, trademarks, trade secrets, and other intellectual property rights recognized in any jurisdiction worldwide.
+
+1.4 "Confidential Information" means any information disclosed by either party to the other party, either directly or indirectly, in writing, orally, or by inspection of tangible objects, that is designated as confidential or that reasonably should be understood to be confidential given the nature of the information and the circumstances of disclosure.
+
+1.5 "Term" means the period beginning on the Effective Date and continuing for a period of three (3) years, unless earlier terminated in accordance with this Agreement.
+
+ARTICLE 2 - LICENSE GRANT
+
+2.1 Grant of License. Subject to the terms and conditions of this Agreement, Licensor hereby grants to Licensee a non-exclusive, non-transferable, limited license to install and use the Software solely for Licensee's internal business operations during the Term.
+
+2.2 Restrictions. Licensee shall not: (a) copy, modify, translate, or create derivative works based on the Software; (b) reverse engineer, disassemble, decompile, or otherwise attempt to derive the source code of the Software; (c) sublicense, sell, resell, transfer, assign, or otherwise dispose of the Software; (d) use the Software for timesharing or service bureau purposes or otherwise for the benefit of a third party; (e) remove or alter any proprietary notices or labels on the Software.
+
+2.3 Ownership. Licensor retains all right, title, and interest in and to the Software, including all Intellectual Property Rights therein. Licensee acknowledges that no title to the Intellectual Property Rights in the Software is transferred to Licensee.
+
+ARTICLE 3 - FEES AND PAYMENT
+
+3.1 License Fees. In consideration for the rights granted hereunder, Licensee shall pay Licensor the license fees set forth in Exhibit B ("License Fees").
+
+3.2 Payment Terms. License Fees shall be due and payable within thirty (30) days of receipt of Licensor's invoice. All amounts payable hereunder shall be in United States Dollars.
+
+3.3 Late Payments. Any amounts not paid by Licensee when due shall accrue interest at the rate of one and one-half percent (1.5%) per month, or the maximum rate permitted by applicable law, whichever is less.
+
+3.4 Taxes. Licensee shall be responsible for all taxes, duties, and other governmental charges imposed on the transactions contemplated by this Agreement, excluding taxes based on Licensor's income.
+
+ARTICLE 4 - CONFIDENTIALITY
+
+4.1 Confidential Information. Each party agrees to hold the other party's Confidential Information in strict confidence and not to disclose such Confidential Information to any third party without the prior written consent of the disclosing party.
+
+4.2 Exceptions. The obligations of confidentiality shall not apply to information that: (a) is or becomes publicly known through no wrongful act of the receiving party; (b) is rightfully received from a third party without restriction; (c) is independently developed by the receiving party without use of Confidential Information; or (d) is required to be disclosed by law or court order.
+
+ARTICLE 5 - WARRANTIES AND DISCLAIMERS
+
+5.1 Licensor Warranties. Licensor represents and warrants that: (a) it has the full right and authority to enter into this Agreement; (b) the Software will substantially conform to the Documentation for a period of ninety (90) days following the Effective Date ("Warranty Period").
+
+5.2 DISCLAIMER. EXCEPT AS EXPRESSLY SET FORTH IN SECTION 5.1, THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. LICENSOR DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+ARTICLE 6 - LIMITATION OF LIABILITY
+
+6.1 IN NO EVENT SHALL EITHER PARTY BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES, INCLUDING WITHOUT LIMITATION LOSS OF PROFITS, REVENUE, DATA, OR BUSINESS OPPORTUNITIES, ARISING OUT OF OR RELATED TO THIS AGREEMENT.
+
+6.2 LICENSOR'S TOTAL CUMULATIVE LIABILITY ARISING OUT OF OR RELATED TO THIS AGREEMENT SHALL NOT EXCEED THE LICENSE FEES PAID BY LICENSEE DURING THE TWELVE (12) MONTHS PRECEDING THE CLAIM.
+
+ARTICLE 7 - TERM AND TERMINATION
+
+7.1 Term. This Agreement shall commence on the Effective Date and continue for the Term unless earlier terminated.
+
+7.2 Termination for Breach. Either party may terminate this Agreement upon thirty (30) days written notice if the other party materially breaches this Agreement and fails to cure such breach within the thirty (30) day notice period.
+
+7.3 Termination for Insolvency. Either party may terminate this Agreement immediately upon written notice if the other party becomes insolvent, makes an assignment for the benefit of creditors, or becomes subject to bankruptcy proceedings.
+
+7.4 Effect of Termination. Upon termination: (a) all licenses granted hereunder shall immediately terminate; (b) Licensee shall cease all use of the Software and destroy all copies thereof; (c) each party shall return or destroy the other party's Confidential Information.
+
+ARTICLE 8 - GENERAL PROVISIONS
+
+8.1 Governing Law. This Agreement shall be governed by and construed in accordance with the laws of the State of Delaware, without giving effect to any choice of law principles that would require the application of the laws of a different jurisdiction.
+
+8.2 Dispute Resolution. Any dispute arising out of or relating to this Agreement shall be resolved by binding arbitration in accordance with the rules of the American Arbitration Association. The arbitration shall be conducted in San Francisco, California.
+
+8.3 Entire Agreement. This Agreement, together with the Exhibits attached hereto, constitutes the entire agreement between the parties with respect to the subject matter hereof and supersedes all prior and contemporaneous negotiations, agreements, representations, and understandings.
+
+8.4 Amendment. This Agreement may only be amended by a written instrument signed by authorized representatives of both parties.
+
+8.5 Severability. If any provision of this Agreement is found to be invalid or unenforceable, such provision shall be modified to the minimum extent necessary to make it valid and enforceable, and the remaining provisions shall continue in full force and effect.
+
+8.6 Notices. All notices under this Agreement shall be in writing and delivered to the addresses set forth above.
+
+IN WITNESS WHEREOF, the parties have executed this Agreement as of the Effective Date.
+
+TECHCORP SOLUTIONS, INC.                    GLOBAL ENTERPRISES LLC
+By: /s/ Jane Smith                          By: /s/ John Doe
+Name: Jane Smith                            Name: John Doe
+Title: Chief Executive Officer              Title: Managing Director
+Date: January 15, 2024                      Date: January 15, 2024
+
+EXHIBIT A - SOFTWARE DESCRIPTION
+Product: DataSync Pro v3.0
+Description: Enterprise data synchronization and management platform
+
+EXHIBIT B - LICENSE FEES
+Annual License Fee: $150,000 USD
+Support and Maintenance: $30,000 USD per year
