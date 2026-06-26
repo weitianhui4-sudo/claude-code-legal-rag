@@ -97,9 +97,11 @@ class TestCleaning:
         assert "15 U.S.C. § 78a" in cleaned.cleaned_text
 
     def test_metadata_contract(self):
-        # Use the full raw doc which has "Effective Date" in proper format
         from pathlib import Path
-        raw_text = Path("data/raw/contract_software_license.txt").read_text()
+        import fitz
+        pdf = fitz.open("data/raw/contract_software_license.pdf")
+        raw_text = "\n".join(page.get_text() for page in pdf)
+        pdf.close()
         raw = make_raw(raw_text, DocumentType.CONTRACT)
         cleaned = clean_document(raw)
         assert "effective_date" in cleaned.metadata

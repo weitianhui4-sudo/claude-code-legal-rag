@@ -1,10 +1,12 @@
-"""Document ingestion: load raw files from disk, detect document type."""
+"""Document ingestion: load PDF files from disk, detect document type."""
 
 from __future__ import annotations
 
 import re
 import uuid
 from pathlib import Path
+
+import fitz  # PyMuPDF
 
 from pipeline.models import DocumentType, RawDocument
 
@@ -43,33 +45,25 @@ def detect_document_type(text: str) -> DocumentType:
     return best if scores[best] >= 2 else DocumentType.UNKNOWN
 
 
+def _extract_text_from_pdf(path: Path) -> str:
+    pdf = fitz.open(str(path))
+    text = "\n".join(page.get_text() for page in pdf)
+    pdf.close()
+    return text
+
+
 def load_documents(data_dir: str | Path) -> list[RawDocument]:
-    """Load all .txt and .pdf files from data_dir into RawDocument objects."""
+    """Load all PDF files from data_dir into RawDocument objects."""
     data_dir = Path(data_dir)
     docs: list[RawDocument] = []
 
-    for path in sorted(data_dir.rglob("*.txt")):
-        text = path.read_text(encoding="utf-8", errors="replace")
-        doc_id = str(uuid.uuid5(uuid.NAMESPACE_URL, str(path)))
-        doc_type = detect_document_type(text)
-        docs.append(RawDocument(
-            doc_id=doc_id,
-            filename=path.name,
-            raw_text=text,
-            doc_type=doc_type,
-            source_path=str(path),
-        ))
+    pdf_files = sorted(data_dir.rglob("*.pdf"))
+    if not pdf_files:
+        print(f"[ingestion] No PDF files found in {data_dir}")
+        return docs
 
-    # PDF support via PyMuPDF (optional)
-    for path in sorted(data_dir.rglob("*.pdf")):
-        try:
-            import fitz  # PyMuPDF
-            pdf = fitz.open(str(path))
-            text = "\n".join(page.get_text() for page in pdf)
-            pdf.close()
-        except ImportError:
-            print(f"[ingestion] PyMuPDF not installed; skipping {path.name}")
-            continue
+    for path in pdf_files:
+        text = _extract_text_from_pdf(path)
         doc_id = str(uuid.uuid5(uuid.NAMESPACE_URL, str(path)))
         doc_type = detect_document_type(text)
         docs.append(RawDocument(
