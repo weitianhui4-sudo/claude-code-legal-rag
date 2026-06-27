@@ -21,16 +21,12 @@ INDEX_DIR = Path("data/index")
 
 
 def build_index_if_needed() -> None:
-    if not (INDEX_DIR / "index.faiss").exists():
+    if not (INDEX_DIR / "embeddings.npy").exists():
         print("Index not found — building from raw documents...")
         from pipeline.pipeline import run_pipeline
         from rag.vector_store import VectorStore
-        from rag.embeddings import fit_backend
 
         chunks = run_pipeline(RAW_DIR, Path("data/processed"), verbose=True)
-        texts = [c.text for c in chunks]
-        fit_backend(texts)
-
         store = VectorStore()
         store.build(chunks)
         store.save(INDEX_DIR)
