@@ -9,6 +9,13 @@ import os
 import sys
 from pathlib import Path
 
+# Load .env file if present
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
+
 RAW_DIR = Path("data/raw")
 INDEX_DIR = Path("data/index")
 
