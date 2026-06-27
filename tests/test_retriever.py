@@ -39,8 +39,8 @@ def store():
 
 class TestVectorStore:
     def test_build_success(self, store):
-        assert store._index is not None
-        assert store._index.ntotal == len(SAMPLE_CHUNKS)
+        assert store._embeddings is not None
+        assert len(store._chunks) == len(SAMPLE_CHUNKS)
 
     def test_search_returns_results(self, store):
         from rag.embeddings import embed_query
@@ -58,7 +58,7 @@ class TestVectorStore:
     def test_save_load_roundtrip(self, store, tmp_path):
         store.save(tmp_path)
         loaded = VectorStore.load(tmp_path)
-        assert loaded._index.ntotal == store._index.ntotal
+        assert loaded._embeddings.shape == store._embeddings.shape
         assert len(loaded._chunks) == len(store._chunks)
 
     def test_score_threshold(self, store):
